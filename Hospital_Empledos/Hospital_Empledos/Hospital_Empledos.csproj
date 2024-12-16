@@ -70,6 +70,22 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Asistencia.cs" />
+    <Compile Include="Models\Beneficio.cs" />
+    <Compile Include="Models\Capa.cs" />
+    <Compile Include="Models\Cumplimiento_Legal.cs" />
+    <Compile Include="Models\Disciplina.cs" />
+    <Compile Include="Models\Empleado.cs" />
+    <Compile Include="Models\Evaluacion.cs" />
+    <Compile Include="Models\Incidente.cs" />
+    <Compile Include="Models\Nominas.cs" />
+    <Compile Include="Models\Permisos_Legales.cs" />
+    <Compile Include="Models\Recibos_Pagos.cs" />
+    <Compile Include="Models\Reporte.cs" />
+    <Compile Include="Models\Solicitante.cs" />
+    <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\Vacaciones.cs" />
+    <Compile Include="Models\Vacantes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +96,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
